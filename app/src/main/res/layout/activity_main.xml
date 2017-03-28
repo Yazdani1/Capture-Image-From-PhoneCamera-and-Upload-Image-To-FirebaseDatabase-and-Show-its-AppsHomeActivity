@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="firebase.firebase16allupdate.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capture And Upload"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/add_image_capture_camera"
+        android:layout_margin="30dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        />
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_margin="10dp"
+        android:id="@+id/image_show_xml"
+        android:layout_height="350dp" />
+
+
+
+</LinearLayout>
